@@ -98,6 +98,3 @@ npm run preview
   * Contact section or form
 * Easy to extend or customize
 
-## License
-
-[MIT](LICENSE)
