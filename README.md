@@ -87,10 +87,6 @@ npm run preview
 ## Deployment
 
 * Currently deployed with Vercel at: [https://varrahan.vercel.app/](https://varrahan.vercel.app/)
-* Badges:
-
-[![Vercel](https://img.shields.io/badge/Vercel-black?logo=vercel&logoColor=white)](https://varrahan.vercel.app/)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
 
 ## Features
 
