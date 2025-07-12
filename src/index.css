@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Desert-themed design system. All colors MUST be HSL. */
+
+@layer base {
+  :root {
+    --background: 44 49% 94%; /* warm sand */
+    --foreground: 25 15% 25%; /* dark brown */
+
+    --card: 44 35% 92%; /* light sand */
+    --card-foreground: 25 15% 25%;
+
+    --popover: 44 35% 92%;
+    --popover-foreground: 25 15% 25%;
+
+    --primary: 25 45% 35%; /* desert brown */
+    --primary-foreground: 44 49% 94%;
+
+    --secondary: 33 65% 78%; /* warm beige */
+    --secondary-foreground: 25 25% 30%;
+
+    --muted: 40 25% 86%; /* light tan */
+    --muted-foreground: 25 15% 45%;
+
+    --accent: 15 75% 65%; /* desert orange */
+    --accent-foreground: 44 49% 94%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 20% 80%; /* light brown border */
+    --input: 40 20% 80%;
+    --ring: 25 45% 35%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 25 15% 15%; /* dark desert night */
+    --foreground: 44 49% 85%;
+
+    --card: 25 15% 18%;
+    --card-foreground: 44 49% 85%;
+
+    --popover: 25 15% 18%;
+    --popover-foreground: 44 49% 85%;
+
+    --primary: 44 49% 85%;
+    --primary-foreground: 25 15% 15%;
+
+    --secondary: 25 15% 25%;
+    --secondary-foreground: 44 49% 85%;
+
+    --muted: 25 15% 25%;
+    --muted-foreground: 44 20% 60%;
+
+    --accent: 15 75% 55%;
+    --accent-foreground: 25 15% 15%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 25 15% 25%;
+    --input: 25 15% 25%;
+    --ring: 44 49% 85%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+/* Desert-specific utility classes */
+@layer utilities {
+  .desert-gradient {
+    background: linear-gradient(135deg, hsl(44 49% 94%) 0%, hsl(33 65% 78%) 50%, hsl(15 75% 65%) 100%);
+  }
+  
+  .desert-text-gradient {
+    background: linear-gradient(135deg, hsl(25 45% 35%) 0%, hsl(15 75% 65%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Sand Animation */
+  .sand-particles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sand-particle {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: hsl(33 65% 78%);
+    border-radius: 50%;
+    animation: sand-blow linear infinite;
+    opacity: 0.7;
+  }
+
+  .sand-particle:nth-child(even) {
+    background: hsl(40 25% 86%);
+    width: 1px;
+    height: 1px;
+  }
+
+  .sand-particle:nth-child(3n) {
+    background: hsl(15 75% 65%);
+    opacity: 0.5;
+  }
+
+  @keyframes sand-blow {
+    0% {
+      transform: translateX(-10px) translateY(100px) rotate(0deg);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.7;
+    }
+    90% {
+      opacity: 0.7;
+    }
+    100% {
+      transform: translateX(calc(100vw + 10px)) translateY(0px) rotate(360deg);
+      opacity: 0;
+    }
+  }
+}
