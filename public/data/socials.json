@@ -1,0 +1,39 @@
+{
+    "contactInfo": [
+        {
+            "icon": "Mail",
+            "label": "Email",
+            "value": "varrahan@gmail.com",
+            "href": "mailto:varrahan@gmail.com"
+        },
+        {
+            "icon": "Phone",
+            "label": "Phone",
+            "value": "+1 (647) 283-2215",
+            "href": "tel:+16472832215"
+        },
+        {
+            "icon": "MapPin",
+            "label": "Location",
+            "value": "Toronto, ON, Canada",
+            "href": "#"
+        }
+    ],
+    "socialLinks": [
+        {
+            "icon": "Github",
+            "href": "https://github.com/varrahan",
+            "label": "GitHub"
+        },
+        {
+            "icon": "Linkedin",
+            "href": "https://www.linkedin.com/in/varrahan-uthayan-578941291/",
+            "label": "LinkedIn"
+        },
+        {
+            "icon": "Instagram",
+            "href": "https://www.instagram.com/varrahan/?hl=en",
+            "label": "Instagram"
+        }
+    ]
+}

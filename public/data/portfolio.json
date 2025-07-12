@@ -1,0 +1,76 @@
+{
+    "portfolio": [
+    {
+        "title": "Aspectus AI-powered Game",
+        "description": "Built a comprehensive Unity game with a team using C#, Python, and JavaScript with AI generated entites and movesets.",
+        "technologies": ["JavaScript", "Unity", "Python", "AWS", "Docker", "React.js", "C#"],
+        "categories": ["AI", "Backend"],
+        "icon": "Brain",
+        "github": "https://github.com/BrainForgeAI"
+    },
+    {
+        "title": "Kubernetes Postgres Operator",
+        "description": "Designed and implemented a kubernetes operator to safely manage postgres databases within a cluster.",
+        "technologies": ["Go", "Kubernetes", "Docker", "PostgreSQL", "Operator-SDK", "YAML"],
+        "categories": ["Cloud"],
+        "icon": "Cloud",
+        "github": "https://github.com/varrahan/PostgresClusterOperator"
+    },
+    {
+        "title": "Blockchain Backend",
+        "description": "Developed a blockchain that uses proof of work to validate transactions and add new blocks.",
+        "technologies": ["Go", "Docker", "Postman", "YAML"],
+        "categories": ["Backend"],
+        "icon": "Bitcoin",
+        "github": "https://github.com/varrahan/blockchain-implementation"
+    },
+    {
+        "title": "S&P-500 Data Pipeline",
+        "description": "Created a high-throughput data pipeline processing streaming data with sub-second latency for real-time analytics.",
+        "technologies": ["Python", "BeautifulSoup", "Flask", "MongoDB", "Docker"],
+        "categories": ["Backend"],
+        "icon": "Server",
+        "github": "https://github.com/varrahan/S-P-500-Data-Retriever-API"
+    },
+    {
+        "title": "Braille Buddy",
+        "description": "Developed an ML model on an RPI that is able to translate english into braille and output it onto readable pins.",
+        "technologies": ["Flask", "Node.js", "Raspberry Pi", "Python", "OpenCV"],
+        "categories": ["AI", "Embedded"],
+        "icon": "CircuitBoard",
+        "github": "https://github.com/varrahan/Braille-Buddy"
+    },
+    {
+        "title": "Elevator Simulator",
+        "description": "Implemented a multi-car elevator system using UDP sockets to communicate between components.",
+        "technologies": ["C++", "UDP Sockets", "CMake", "Linux"],
+        "categories": ["Backend"],
+        "icon": "Brain",
+        "github": "https://github.com/varrahan/Elevator-Simulator"
+    },
+    {
+        "title": "RPI Basics",
+        "description": "Tutorial series on using Python to program on a Raspberry Pi Board. Includes Sensehat and GPIO programming, SQLite database integration, and cloud service communicaton.",
+        "technologies": ["Python", "Flask", "Raspberry Pi", "GCP", "SQLite"],
+        "categories": ["Embedded"],
+        "icon": "CircuitBoard",
+        "github": "https://github.com/varrahan/RPI-Basics"
+    },
+    {
+        "title": "C++ Suite",
+        "description": "Tutorial series in C++ for buidling multi-threaded applications, such as producer consumer, client server with UDP, and state machine design.",
+        "technologies": ["C++"],
+        "categories": ["Backend"],
+        "icon": "Server",
+        "github": "https://github.com/varrahan/C-Suite"
+    },
+    {
+        "title": "Email SMTP Microservice",
+        "description": "Built a microservice that acts as an email proxy, allowing multiple users to securely send messages to a central recipient.",
+        "technologies": ["Go", "Gin", "Docker"],
+        "categories": ["Backend"],
+        "icon": "Server",
+        "github": "https://github.com/varrahan/Email-Service"
+    }
+]
+}

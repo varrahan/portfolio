@@ -1,0 +1,51 @@
+{
+  "experience": [
+    {
+      "title": "Software Developer Intern",
+      "company": "Markitech",
+      "location": "Toronto, ON, Canada",
+      "period": "May 2025 - Present",
+      "description": [
+        "Overhauled UI for primary company web application alongside team members with React",
+        "Worked on Firebase integration to store data of existing users and user data"
+      ],
+      "technologies": ["Node.js", "React.js", "JavaScript", "HTML5", "CSS3", "Express.js"]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "Ingram Micro",
+      "location": "Toronto, ON, Canada",
+      "period": "May 2024 - December 2024",
+      "description": [
+        "Designed REST APIs with scheduled cron jobs for existing business integrations using Python and Docker",
+        "Developed 8+ ServiceNow workflows and forms to enforce company wide maintainence on Atlassian assets",
+        "Worked on Atlassian integration for internal management tool to reduce costs from Atlassian licenses by 20%"
+      ],
+      "technologies": ["Azure", "Docker", "Python", "Kubernetes", "ServiceNow", "FastAPI", "Node.js", "Vue.js"]
+    },
+    {
+      "title": "Embedded Systems Developer Intern",
+      "company": "Best Theratronics",
+      "location": "Ottawa, ON, Canada",
+      "period": "January 2024 - April 2024",
+      "description": [
+        "Implemented multi-core C program to assist with Cyclotron particle accelorator shutdown",
+        "Designed a CNN deep learning model in Python to classify brain tumors with 96% accuracy",
+        "Developed Python programs on Raspberry Pi to assist with calculating parameters for Isotope-based telemetry systems"
+      ],
+      "technologies": ["C", "Raspberry Pi", "C++", "Python", "Pytorch", "OpenCV"]
+    },
+    {
+      "title": "Data Engineering Intern",
+      "company": "ISP Database",
+      "location": "Toronto, ON, Canada",
+      "period": "May 2023 - August 2023",
+      "description": [
+        "Developed pipelines using Python to transform data from SQL databases into user-friendly tableau dashboards",
+        "Implemented Python automations to reduce data entry by 60% and reduce data sprawl among different data centers",
+        "Built 5+ dashboards for various clients using Tableau and SQL"
+      ],
+      "technologies": ["SQL", "Python", "Flask", "MongoDB", "Tableau", "Pandas"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "programmingLanguages": [
+    "JavaScript", "TypeScript", "Python", "Go", "Java", "C++", "SQL", "C"
+  ],
+  "toolsAndSoftware": [
+    "Docker", "Kubernetes", "AWS", "Azure", "Git", "Linux", "Postman", "MongoDB", "ServiceNow", "Terraform", "Redis"
+  ],
+  "librariesAndFrameworks": [
+    "React.js", "Express.js", "FastAPI", "TensorFlow", "PyTorch", "Pandas", "Gin", "Node.js", "OpenCV", "Flask"
+  ]
+}
