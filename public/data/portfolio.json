@@ -2,7 +2,7 @@
     "portfolio": [
     {
         "title": "Aspectus AI-powered Game",
-        "description": "Built a comprehensive Unity game with AI generated entites and movesets in a cross-functional team using C#, Python, and JavaScript.",
+        "description": "Built a comprehensive Unity game with AI generated entities and movesets in a cross-functional team using C#, Python, and JavaScript.",
         "technologies": ["JavaScript", "Unity", "Python", "AWS", "Docker", "React.js", "C#"],
         "categories": ["AI", "Backend"],
         "icon": "Brain",
@@ -10,7 +10,7 @@
     },
     {
         "title": "Kubernetes Postgres Operator",
-        "description": "Designed and implemented a kubernetes operator to safely manage multiple postgres databases within a cluster in the event of pod crashes.",
+        "description": "Designed and implemented a kubernetes operator to safely manage multiple postgres database instances within a cluster in the event of pod crashes.",
         "technologies": ["Go", "Kubernetes", "Docker", "PostgreSQL", "Operator-SDK", "YAML"],
         "categories": ["Cloud"],
         "icon": "Cloud",
