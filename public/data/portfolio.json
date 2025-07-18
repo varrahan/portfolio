@@ -2,7 +2,7 @@
     "portfolio": [
     {
         "title": "Aspectus AI-powered Game",
-        "description": "Built a comprehensive Unity game with AI generated entites and movesets in a cross-functional team using C#, Python, and JavaScript",
+        "description": "Built a comprehensive Unity game with AI generated entites and movesets in a cross-functional team using C#, Python, and JavaScript.",
         "technologies": ["JavaScript", "Unity", "Python", "AWS", "Docker", "React.js", "C#"],
         "categories": ["AI", "Backend"],
         "icon": "Brain",
@@ -34,7 +34,7 @@
     },
     {
         "title": "Braille Buddy",
-        "description": "Developed a CNN model on a low-cost RPI platform that translates text from images into braille to allows users to learn braille and convert books into braille",
+        "description": "Developed a CNN model on a low-cost RPI platform that translates text from images into braille to allows users to learn braille and convert books into braille.",
         "technologies": ["Flask", "Node.js", "Raspberry Pi", "Python", "OpenCV"],
         "categories": ["AI", "Embedded"],
         "icon": "CircuitBoard",
