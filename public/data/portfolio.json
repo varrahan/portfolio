@@ -2,7 +2,7 @@
     "portfolio": [
     {
         "title": "Aspectus AI-powered Game",
-        "description": "Built a comprehensive Unity game with a team using C#, Python, and JavaScript with AI generated entites and movesets.",
+        "description": "Built a comprehensive Unity game with AI generated entites and movesets in a cross-functional team using C#, Python, and JavaScript",
         "technologies": ["JavaScript", "Unity", "Python", "AWS", "Docker", "React.js", "C#"],
         "categories": ["AI", "Backend"],
         "icon": "Brain",
@@ -10,7 +10,7 @@
     },
     {
         "title": "Kubernetes Postgres Operator",
-        "description": "Designed and implemented a kubernetes operator to safely manage postgres databases within a cluster.",
+        "description": "Designed and implemented a kubernetes operator to safely manage multiple postgres databases within a cluster in the event of pod crashes.",
         "technologies": ["Go", "Kubernetes", "Docker", "PostgreSQL", "Operator-SDK", "YAML"],
         "categories": ["Cloud"],
         "icon": "Cloud",
@@ -26,7 +26,7 @@
     },
     {
         "title": "S&P-500 Data Pipeline",
-        "description": "Created a high-throughput data pipeline processing streaming data with sub-second latency for real-time analytics.",
+        "description": "Created a high-throughput data pipeline for processing streaming data of the S&P 500 for real-time analytics and ML model training.",
         "technologies": ["Python", "BeautifulSoup", "Flask", "MongoDB", "Docker"],
         "categories": ["Backend"],
         "icon": "Server",
@@ -34,7 +34,7 @@
     },
     {
         "title": "Braille Buddy",
-        "description": "Developed an ML model on an RPI that is able to translate english into braille and output it onto readable pins.",
+        "description": "Developed a CNN model on a low-cost RPI platform that translates text from images into braille to allows users to learn braille and convert books into braille",
         "technologies": ["Flask", "Node.js", "Raspberry Pi", "Python", "OpenCV"],
         "categories": ["AI", "Embedded"],
         "icon": "CircuitBoard",
@@ -58,7 +58,7 @@
     },
     {
         "title": "C++ Suite",
-        "description": "Tutorial series in C++ for buidling multi-threaded applications, such as producer consumer, client server with UDP, and state machine design.",
+        "description": "Tutorial series in C++ for building multi-threaded applications, such as producer consumer, client server with UDP, and state machine design.",
         "technologies": ["C++"],
         "categories": ["Backend"],
         "icon": "Server",
