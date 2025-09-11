@@ -7,7 +7,8 @@
       "period": "May 2025 - Present",
       "description": [
         "Overhauled UI for primary company web application alongside team members with React",
-        "Worked on Firebase integration to store data of existing users and user data"
+        "Worked on Firebase integration to store data of existing users and user data",
+        "Implemented general dashboard for clinicians across Canada with agentic AI caller integration"
       ],
       "technologies": ["Node.js", "React.js", "JavaScript", "HTML5", "CSS3", "Express.js"]
     },
