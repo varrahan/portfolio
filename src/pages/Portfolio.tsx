@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
-import { ExternalLink, Github, Server, Cloud, Brain, Bitcoin, CircuitBoard } from 'lucide-react';
+import { ExternalLink, Github, Server, Cloud, Brain, Bitcoin, CircuitBoard, MonitorCog } from 'lucide-react';
 
 import { fetchPortfolio } from '@/api/fetchData';
 
@@ -41,10 +41,11 @@ const Portfolio = () => {
     Cloud, 
     Brain, 
     Bitcoin, 
-    CircuitBoard
+    CircuitBoard,
+    MonitorCog
   }
 
-  const categories = ['All', 'Backend', 'Cloud', 'AI', 'Embedded'];
+  const categories = ['All', 'Backend', 'Cloud', 'AI', 'Embedded', 'Crypto', 'Systems'];
 
   return (
     <div className="min-h-screen py-20 px-4">
