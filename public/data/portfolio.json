@@ -9,6 +9,31 @@
         "github": "https://github.com/BrainForgeAI"
     },
     {
+        "title": "URL Shortener",
+        "description": "Designed and implemented a production-style URL shortening service with RESTful APIs, supporting URL creation, redirection, validation, and expiration logic.",
+        "technologies": ["Go", "Redis", "Gin", "Docker"],
+        "categories": ["Backend"],
+        "icon": "Server",
+        "github": "https://github.com/varrahan/URL-Shortener",
+        "live": "https://url-shortener-xurl.onrender.com"
+    },
+    {
+        "title": "LC-3 Virtual Machine",
+        "description": "Designed and documented a LC-3 virtual machine from scratch, supporting loading of compiled object files, memory-mapped I/O, and full instruction-cycle execution.",
+        "technologies": ["C", "Makefile"],
+        "categories": ["Systems"],
+        "icon": "MonitorCog",
+        "github": "https://github.com/varrahan/LC3-Virtual-Machine"    
+    },
+    {
+        "title": "AI Coding Agent",
+        "description": "Built an AI coding agent capable of interpreting tasks, generating and executing source code, and iteratively self-debugging using LLM reasoning",
+        "technologies": ["Python", "Gemini API"],
+        "categories": ["AI"],
+        "icon": "Brain",
+        "github": "https://github.com/varrahan/AI-coding-agent"
+    },
+    {
         "title": "Kubernetes Postgres Operator",
         "description": "Designed and implemented a kubernetes operator to safely manage multiple postgres database instances within a cluster in the event of pod crashes.",
         "technologies": ["Go", "Kubernetes", "Docker", "PostgreSQL", "Operator-SDK", "YAML"],
@@ -20,7 +45,7 @@
         "title": "Blockchain Backend",
         "description": "Developed a blockchain that uses proof of work to validate transactions and add new blocks.",
         "technologies": ["Go", "Docker", "Postman", "YAML"],
-        "categories": ["Backend"],
+        "categories": ["Backend", "Crypto"],
         "icon": "Bitcoin",
         "github": "https://github.com/varrahan/blockchain-implementation"
     },
@@ -44,8 +69,8 @@
         "title": "Elevator Simulator",
         "description": "Implemented a multi-car elevator system using UDP sockets to communicate between components.",
         "technologies": ["C++", "UDP Sockets", "CMake", "Linux"],
-        "categories": ["Backend"],
-        "icon": "Brain",
+        "categories": ["Systems"],
+        "icon": "MonitorCog",
         "github": "https://github.com/varrahan/Elevator-Simulator"
     },
     {
