@@ -32,8 +32,8 @@ const About = () => {
             About Me
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate software engineer with a focus on building scalable backend systems, 
-            cloud infrastructure, and AI-powered solutions.
+            Passionate software engineer with a focus on building scalable backend software, 
+            cloud infrastructure, and distributed systems.
           </p>
         </div>
 
@@ -47,13 +47,13 @@ const About = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
-                As a Computer Engineering student with 20+ months of software development experience, 
-                I am proficient in Python, Golang, and C, with my experience extending towards Backend,
-                AI/ML, and Cloud technologies. 
+                As a Computer Engineering student with 2+ years of software development experience, 
+                I am proficient in Python, Golang, and C, with my experience extending towards backend,
+                distributed systems, and cloud technologies. 
               </p>
               <p className="text-muted-foreground">
-                I specialize in building backend applications and AI powered services. I am fascinated by 
-                the endless possibilities and innovations of technology, especially in the AI/ML and Cloud
+                I specialize in building backend applications and distriubted computing services. I am fascinated by 
+                the endless possibilities and innovations of technology, especially in the cloud and distributed systems
                 industries, and I flourish when facing challenging problems that require my creativity.
               </p>
             </CardContent>
@@ -78,7 +78,7 @@ const About = () => {
               </p>
               <p className="text-muted-foreground">
                 I believe in staying up to date with technology trends and contribute and build 
-                open-source projects while exploring emerging technologies in cloud computing and AI.
+                open-source projects while exploring emerging technologies in cloud computing and distributed systems.
               </p>
             </CardContent>
           </Card>
