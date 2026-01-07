@@ -215,7 +215,6 @@ const Contact = () => {
                 <ul className="space-y-1 text-sm text-muted-foreground">
                   <li>• Backend Development Projects</li>
                   <li>• Cloud Architecture Development</li>
-                  <li>• AI/ML Integration</li>
                   <li>• Data Pipelining</li>
                 </ul>
               </CardContent>
