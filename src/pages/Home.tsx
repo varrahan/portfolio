@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
-import { ArrowRight, Code, Cloud, Brain } from 'lucide-react';
+import { ArrowRight, Code, Cloud, Network } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
             Varrahan Uthayan
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-2xl mx-auto">
-            Specializing in Backend Development, Cloud Architecture, and AI Solutions
+            Specializing in Distributed Systems, Cloud Architecture, and Backend Development
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="text-lg">
@@ -37,13 +37,14 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-8 text-center">
-                <Code className="h-12 w-12 mx-auto mb-4 text-accent" />
-                <h3 className="text-xl font-semibold mb-4">Backend Development</h3>
+                <Network className="h-12 w-12 mx-auto mb-4 text-accent" />
+                <h3 className="text-xl font-semibold mb-4">Distributed Systems</h3>
                 <p className="text-muted-foreground">
-                  Building robust, scalable server-side applications with modern frameworks and best practices.
+                  Designing and operating distributed, fault-tolerant cloud systems for scalability, reliability, and performance.
                 </p>
               </CardContent>
             </Card>
+
 
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-8 text-center">
@@ -57,10 +58,10 @@ const Home = () => {
 
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-8 text-center">
-                <Brain className="h-12 w-12 mx-auto mb-4 text-accent" />
-                <h3 className="text-xl font-semibold mb-4">AI Development</h3>
+                <Code className="h-12 w-12 mx-auto mb-4 text-accent" />
+                <h3 className="text-xl font-semibold mb-4">Backend Development</h3>
                 <p className="text-muted-foreground">
-                  Creating intelligent applications leveraging machine learning and artificial intelligence.
+                  Building robust, scalable server-side applications with modern frameworks and best practices.
                 </p>
               </CardContent>
             </Card>
