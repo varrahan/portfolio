@@ -6,6 +6,6 @@
     "Docker", "Kubernetes", "AWS", "Azure", "Git", "Linux", "Postman", "MongoDB", "ServiceNow", "Terraform", "Redis", "InfluxDB", "GCP", "Firebase"
   ],
   "librariesAndFrameworks": [
-    "React.js", "Express.js", "FastAPI", "TensorFlow", "PyTorch", "Pandas", "Gin", "Node.js", "OpenCV", "Flask", "LangGraph", "LangChain"
+    "React.js", "Express.js", "FastAPI", "TensorFlow", "PyTorch", "Pandas", "Gin", "Node.js", "OpenCV", "Flask", "LangGraph", "LangChain", "OpenMP"
   ]
 }
