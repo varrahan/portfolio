@@ -95,7 +95,8 @@
         "technologies": ["Go", "Gin", "Docker"],
         "categories": ["Backend"],
         "icon": "Server",
-        "github": "https://github.com/varrahan/Email-Service"
+        "github": "https://github.com/varrahan/Email-Service",
+        "live": "https://email-service-170665655486.northamerica-northeast2.run.app/"
     }
 ]
 }
