@@ -7,7 +7,7 @@ import { Label } from '@/components/ui/Label';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Instagram } from 'lucide-react';
 import { useToast } from '@/hooks/useToast';
 import { fetchSocials } from '@/api/fetchData';
-import { sendEmail } from '@/api/sendEmail'; // ← import your sendEmail function
+import { sendEmail } from '@/api/sendEmail';
 
 type Contact = {
   icon: string,
