@@ -92,7 +92,7 @@
     {
         "title": "Email SMTP Microservice",
         "description": "Built a microservice that acts as an email proxy, allowing multiple users to securely send messages to a central recipient.",
-        "technologies": ["Go", "Gin", "Docker"],
+        "technologies": ["Go", "Gin", "Docker", "NGINX"],
         "categories": ["Backend"],
         "icon": "Server",
         "github": "https://github.com/varrahan/Email-Service",
